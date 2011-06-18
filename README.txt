@@ -47,3 +47,11 @@ http://www.projectskyfire.org/index.php?/topic/2548-sql-guidelines/page__pid__62
 http://ytdb.ru/showthread.php?t=1147
 
 6. 
+-=Инструменты для сбора локализации=-
+ Кеширующий аддон для сбора текстов окончания квестов by Fog 
+ MDataParser 0.3.3
+
+ Как им пользоваться: Извлекаем в ..\World of Warcraft\Interface\AddOns\ в игре включаем этот аддон.
+ Кеш находится в папке World of Warcraft\WTF\Account\[acc_name]\SavedVariables под названием MDataParser.lua
+-=И главное - после взятия квеста разговаривайте с квестопринимателем не выполнив квест!!!=-
+ 
