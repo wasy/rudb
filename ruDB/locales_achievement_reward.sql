@@ -1,3 +1,5 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -23,7 +25,8 @@ CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
   `text_loc6` text,
   `text_loc7` text,
   `text_loc8` text,
-  `WDBVerified` smallint(5) unsigned NOT NULL DEFAULT '12340',
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+INSERT INTO `locales_achievement_reward` VALUES(1021, '', '', '', '', '', '', '', 'Весьма Успевающий Ученик', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Я не мог не заметить ту прекрасную коллекцию накидок, которую вам удалось собрать за месяцы. Вы могли бы также добавить эту к своей коллекции. Она просто собирала пыль в моем платяном шкафу.');
+INSERT INTO `locales_achievement_reward` VALUES(2143, '', '', '', '', '', '', '', 'Во главе ковалерии', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Надо заметить, ты прекрасно обращаешься с животными. Благодаря тебе, наши дела пошли на лад.\r\n\r\nНадеюсь ты не откажешься присмотреть за этим драконом-альбиносом? У меня просто нет времени уделять ему достаточно внимания.\r\n\r\nС уважением,\r\nМей');
